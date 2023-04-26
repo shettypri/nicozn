@@ -8,9 +8,8 @@ const LeftFooter = () => {
             <div className='footer-div'>
                 <img src={logo} className='footer-icon'/>
             </div>
-            <div className='footer-map'>
+            <div >
                 <Map />
-
             </div>
         </div>
     </>
