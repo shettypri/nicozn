@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import '../../Style/navbar.css'
 
 function Navbar() {
@@ -14,11 +14,11 @@ function Navbar() {
         <div > */}
         <section>
             <ul className='navbar-right'>
-            {values.map(val =>{
+            {values.map( (val,index) =>{
                 return(
-                    <>
-                        <li>{val}</li>
-                    </>
+                    <div key={index}>
+                        <li className='navbar-list'>{val}</li>
+                    </div>
                 )
             })
         }
