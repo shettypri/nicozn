@@ -1,8 +1,14 @@
-
-
+import '../../Style/Footer.css'
+import LeftFooter from './LeftFooter'
+import RightFooter from './RightFooter'
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <>
+      <div className="footer-main">
+        <LeftFooter />
+        <RightFooter />
+      </div>
+    </>
   )
 }
 
