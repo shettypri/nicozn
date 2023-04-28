@@ -1,23 +1,25 @@
-import React from 'react'
 
-import deswonlogo from '../../assets/client/deswonlogo.png'
-import nittelogo from '../../assets/client/nittelogo.png'
+// import deswonlogo from '../../assets/client/deswonlogo.png'
+// import nittelogo from '../../assets/client/nittelogo.png'
 
-const clientlogos=[
-  {deswonlogo},{nittelogo}
+// const clientlogos=[
+//   deswonlogo,nittelogo
 
-]
+// ]
 
-export const clients=()=>{
+export const Client=()=>{
   return(
-    <>{
+    <>
+    {/* {
       clientlogos.map((val,index)=>{
         return(
-          <div key={index}></div>
+          <div key={index}>
+
+          </div>
 
         )
       })
-    }
+    } */}
     </>
     
 

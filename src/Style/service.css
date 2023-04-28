@@ -77,11 +77,22 @@ img{
     /* margin-left: 300px; */
 }
 
-/* .tech:hover{
-    z-index: -1;
-    background-color: #0D1B1E;
-    color: #349BD5; 
-} */
+.mock-up-div{
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 90vh;
+    display: flex;
 
+
+}
+
+.div-mockup-images{
+    
+    height: 80vh;
+}
+.mockup-image{
+    width: 100%;
+    height: 20vh auto;
+}
 
 

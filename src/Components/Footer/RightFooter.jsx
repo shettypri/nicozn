@@ -34,7 +34,8 @@ const RightFooter = () => {
                     contactDetails.map((val,index) =>{
                         return(
                             <>
-                            <p key={index}>
+                            {/* <p key={index} className="contact-main"> */}
+                            <p key={index} >
                                 <Contact type={val} />
                             </p>
                             </>

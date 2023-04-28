@@ -20,31 +20,36 @@ import { Mobile } from './Mobile'
 const portfolioImage =[
     {
         "app":[lmar1,lmar2,lmar3]
-    },{
-        "app":[nigma1,nigma2,nigma3]
-    },{
-        "app" :[shisha1,shisha2,shisha3]
-    },{
-        "app":[Zed1,Zed2,Zed3]
-    }
+    },
+    // {
+    //     "app":[nigma1,nigma2,nigma3]
+    // },{
+    //     "app" :[shisha1,shisha2,shisha3]
+    // },{
+    //     "app":[Zed1,Zed2,Zed3]
+    // }
 ]
 
 export const Portfolio = () => {
-  return (
-    <>
-        <h3 className='portfolio-heading'>
-            Portfolio
-        </h3>
+    return (
+        <>
+            <center>
+                <h3 className='portfolio-heading'>
+                    Portfolio
+                </h3>
+            </center>
 
-        {
-            portfolioImage.map((val,index) =>{
-                return(
-                    <div key={index}>
-                        <Mobile workImage={val}/>
-                    </div>
-                )
-            })
-        }
-    </>
-  )
+            <div className='portfolio-mockup-image'>
+            {
+                portfolioImage.map((val,index) =>{
+                    return(
+                        <div key={index} className='portfolio-projects'>
+                            <Mobile workImage={val}/>
+                        </div>
+                    )
+                })
+            }
+            </div>
+        </>
+    )
 }
