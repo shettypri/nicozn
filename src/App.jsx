@@ -1,5 +1,5 @@
 
-// import './App.css'
+import './App.css'
 import Client from './Components/Client/Client'
 import { Home } from './Components/First_page/Home'
 import Footer from './Components/Footer/Footer'
@@ -18,7 +18,7 @@ function App() {
       <Portfolio /> */}
       {/* <Client /> */}
        {/* <Tech /> */}
-      <Footer /> 
+      {/* <Footer />  */}
     </>
   )
 }
