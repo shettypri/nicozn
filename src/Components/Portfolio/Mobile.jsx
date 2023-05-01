@@ -1,38 +1,28 @@
 /* eslint-disable react/prop-types */
-// import { useState ,useEffect} from "react";
 import '../../Style/MObile.css'
 export const Mobile = (props) => {
-   
-    
-    // const imageChange = ()=>{
-    //     setWork(props.workImage.app[1])
-        
-    // }
-    // const imageOld =()=>{
-    //     setWork(props.workImage.app[0])
-    // }
-    
-    // const [work, setWork] = useState(props.workImage.app[0])
   return (
     <>
-    <div className="portfolio-mobile">
-      {
-        props.workImage.app.map((views,index)=>{
-          return(
-            <img src={views} 
-            key={index}  className="portfolio-mockup"/>
-          
-          )
-        })
-      }
+      <div className="portfolio-mobile-div">
+          <div className="mockup-images">
+            {
+              props.workImage.app.map((views,index)=>{
+                return(
+                  <span key={index}>
+                    <img src={views} className="portfolio-mockup"/>
+                  </span>
+                )
+              })
+            }
+          </div>
+          <div className="portfolio-app-details">
+              <div className="portfolio-app-name">
+              <a href={props.workImage.playstore} target='_blank' rel='noreferrer'>
+                  {props.workImage.name}
+                </a>
+              </div>
+      </div>
     </div>
-        {/* <img src={work}  
-        className="portfolio-mockup"
-        onMouseOver={imageChange}
-        onMouseOut={imageOld}
-        /> */}
     </>
-    
-    
   )
 }

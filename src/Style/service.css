@@ -1,4 +1,184 @@
-img{
+.service-header{
+    margin-top: 20px;
+    /* border: 2px solid rebeccapurple; */
+    padding: 10px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    /* background-color: aliceblue; */
+}
+
+.service-header p{
+    display: flex;
+    justify-content: center;
+    /* align-items: s; */
+} 
+
+.service-heading{
+    padding: 0px;
+    font-style:normal;
+    font-weight: bolder;
+    font-size: 2vw;
+    text-transform: capitalize;
+    text-indent: 25px;
+    margin-bottom: 20px;
+}
+.sub-heading{
+    padding: 0px;
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 1.1vw;
+    color: rgb(102, 89, 89);
+    font-weight: bolder;
+}
+
+.servie-container{
+    /* width: 100%; */
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-div{
+    margin: 30px 4px 10px 10px;
+    float: left;
+}
+
+.mobile-div img{
+    width: 20vw;
+    height: auto;
+    margin: 5px;
+}
+
+.mobile-div img:nth-child(1) {
+    animation: bounce 1s infinite;
+    /* background-color: black; */
+    /* transform: rotate3d(-1, 93, 20, 206deg); */
+}
+.mobile-div img:nth-child(2) {
+    transform:rotate3d(-5, 96, 24, 360deg); 
+    
+}
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .mobile-content{
+    width: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-right: 35px;
+    border-radius: 25px;
+    padding: 50px;
+  }
+
+.mobile-heading{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin: 10px 0px 0px 0px;
+}
+
+.heading{
+    margin: -5px;
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+.mobile-sub-heading{
+    padding:0px 100px -2px 100px;
+    font-style: oblique;
+    color: rgb(59, 54, 54);
+    font-size: 1.2vw;
+}
+
+.mobile-points{
+    margin: 5px 5px 0px 15px;
+}
+
+.mobile-points ul{
+    
+}
+.mobile-points{
+    margin: 18px;
+}
+
+.mobile-points ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px 0px 10px 0px;
+    list-style: none;
+    padding: 15px 0px 15px 0px;
+    border-radius: 45px;
+    box-shadow: rgba(80, 126, 165, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    cursor: pointer;
+   
+}
+
+.mobile-points ul li section{
+    display: none;
+}
+
+.mobile-points ul li:hover{
+    display: block;
+    background-color: rgb(126, 163, 164);
+    color: white;
+    box-shadow: rgba(21, 112, 168, 0.933) 0px 50px 100px -20px, rgba(225, 241, 55, 0.927) 0px 30px 60px -30px, rgba(9, 119, 228, 0.35) 0px -2px 6px 0px inset;
+}
+
+.web-dev-container{
+    margin: 15px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+
+.web-heading{
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 35px;
+    margin-left: 30px;
+}
+
+.web-dev-div {
+    /* display: flex; */
+    border-radius: 25px;
+}
+
+.web-dev-div img{
+   
+    margin-top: 50px;
+    width: 65%;
+    height: 60vh auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mg{
     width: 500px;
 }
 
@@ -53,8 +233,8 @@ img{
     padding-bottom: 25px;
     padding-top: 25px;
     
-    /* border-radius: 10%; */
-    width: 50%;
+    /* border-radius: 10%; */ 
+  /*  width: 50%;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -65,16 +245,19 @@ img{
     background-color: #0D1B1E;
     color: #349BD5;
     /* width: 50px; */
+/*
 }
-.tech-main{
+    .tech-main{
     display: flex;
     justify-content: center;
     /* margin: 250px; */
+    /*
 }
 .tech{
     display: flex;
     padding: 30px;
     /* margin-left: 300px; */
+    /*
 }
 
 .mock-up-div{
@@ -95,4 +278,4 @@ img{
     height: 20vh auto;
 }
 
-
+*/

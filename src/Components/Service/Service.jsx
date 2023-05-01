@@ -1,4 +1,4 @@
-// import React from 'react'
+import '../../Style/service.css'
 
 import { Model } from "./Model"
 
@@ -14,6 +14,9 @@ import nigma1 from '../../assets/MorkUp/Nigma/Nigma2_iphone13blue_portrait.png'
 import shisha1 from '../../assets/MorkUp/shisha/shisha1.png'
 import Zed1 from '../../assets/MorkUp/Zed/Zed1_iphone13blue_portrait.png'
 import Mockup from "./Mockup"
+import Mobile from "./Mobile"
+import shishaAndroid from '../../assets/MorkUp/Shisha Android/Shisha1.png'
+import Web from './Web'
 
 function Servie() {
     
@@ -41,18 +44,34 @@ function Servie() {
     // }]
 
     const mockupArray =[
-      lmar1,nigma1,shisha1,Zed1
+      // lmar1,nigma1,shisha1,Zed1
+      shisha1,Zed1
       
     ]
     
   return (
     <>
-    <p className="service-heading service-text">
+    <div className="Service-main">
+    <div className="service-header">
+    <p className="service-heading">
       Our services
     </p>
-    <p className="sub-heading service-text">
+    <p className="sub-heading">
     Were providing valuable IT services to our clients for Transforming technology, empowering businesses
     </p>
+    </div>
+
+    
+          <div  className="servie-container" >
+              <Mobile/>
+          </div>
+
+          <div className='servie-container'>
+            <Web />
+          </div>
+    </div>
+
+
       {/* {techStack.map( (val,index)=>{
           return(
             <div key={index} >
@@ -62,7 +81,7 @@ function Servie() {
         })
       } */}
        {/* <Model val='../assets/service/Mobile app develpment.jpg'/> */}
-      <div className="mock-up-div">
+      {/* <div className="mock-up-div">
         {
           mockupArray.map((mobileImage,index)=>{
             return(
@@ -72,7 +91,7 @@ function Servie() {
             )
           })
         }
-      </div>
+      </div> */}
     </>
   )
 }
