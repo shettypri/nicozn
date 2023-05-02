@@ -62,6 +62,8 @@
     width: 40vw;
     height: 70vh;
     overflow: hidden;
+    margin-bottom: 44px;
+
 }
 
 .mockup-images img{
@@ -92,4 +94,5 @@
     width: 18vw;
     border-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-left: 50px;
 }

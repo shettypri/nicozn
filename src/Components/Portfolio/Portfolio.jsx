@@ -28,12 +28,12 @@ const portfolioImage =[
     {
         "app":[Zed1,Zed2],
         "name":"Zed",
-        "playstore":"https://play.google.com/store/apps/details?id=com.nicozn.nigma"
+        "playstore":"https://play.google.com/store/apps/details?id=com.zed.userapp"
     },
     {
         "app":[lmar1,lmar2],
-        "name":"lamar1",
-        "playstore":"https://play.google.com/store/apps/details?id=com.nicozn.nigma"
+        "name":"Lamar",
+        "playstore":"https://play.google.com/store/apps/details?id=com.lamar.app"
     }
 ]
 export const Portfolio = () => {

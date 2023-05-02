@@ -5,10 +5,12 @@ const Contact = (props) => {
   return (
     <>
         {/* <p className="contact-main"> */}
-        <button className="contact-btn">
+        <a className="contact-btn" href="#" target="_blank" >
             <img src={props.type.icon} className="contact-icon"/>
-                {props.type.info}
-        </button>
+                <p>
+                  {props.type.info}
+                </p>
+        </a>
     </>
   )
 }
