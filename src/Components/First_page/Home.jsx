@@ -13,19 +13,19 @@ export const Home = () => {
                 <video src={video} autoPlay loop muted/>
             </div>
             <div className='container'>
-            <div className='logo '>
-                {companyIcon.map((val,index)=>{
-                    return(
-                        <img src={val} key={index}  className='icon-nicozn'/>
-                    )
-                })}
-            </div>
+                <div className='logo'>
+                    {companyIcon.map((val,index)=>{
+                        return(
+                            <img src={val} key={index}  className='icon-nicozn'/>
+                        )
+                    })}
+                </div>
 
-            <div className='home-btn-div'>
-                <button className='home-btn'>
-                    Let us Talk
-                </button>
-            </div>
+                <div className='home-btn-div'>
+                    <button className='home-btn'>
+                        Let us Talk
+                    </button>
+                </div>
             </div>
         </div>
     </>

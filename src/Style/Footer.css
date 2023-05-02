@@ -79,15 +79,9 @@
     height: auto;
 }
 
-@media screen and (min-width:400px) {
-    .google-map{
-        width: 25vw;
-        height:  50vh ;
-        margin-bottom: 50px;
-    }
-}
 
-@media screen and (max-width:400px) {
+
+@media screen and (max-width:600px) {
     .footer-icon{
         
         width: 20vw;

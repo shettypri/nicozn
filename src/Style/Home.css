@@ -1,45 +1,28 @@
-.home-video{
-    position: relative;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-}
 video{
     width: 100% !important;
     height: auto !important;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -10;
 }
 .container{
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    top:5%;
-    left:2%;
-    right:25% ;
+    margin: 15vw 6vw 3vw 2vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
-    color: white;
 }
- .logo{
-    display:flex;
-    position: relative; 
-    
-} 
+
 .icon-nicozn{ 
     height: vh;
     width: 5vw;
     margin: 15px;
 }
 
-.home-btn-div{
-
-}
 .home-btn{
-    padding: 0.8rem;
-    width: 10rem;
+    padding: 1vw;
+    width: auto;
     border-radius: 15px;
     text-transform: uppercase;
 }
@@ -48,4 +31,25 @@ video{
     border: none;
     background-color: #0D1B1E;
     color: whitesmoke;
+}
+
+
+@media screen and (max-width:600px){
+    .container{
+        top:0;
+        left: 0;
+        right: 0;
+    }
+    .home-btn{
+        padding: 1.3vw;
+        width: auto;
+    }
+    .logo img{
+        width: 4vw;
+        height: 4vh;
+    }
+
+    .container{
+        margin: 7vw 6vw 3vw 2vw;
+    }
 }

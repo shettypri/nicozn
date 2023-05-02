@@ -11,13 +11,13 @@ import Tech from './Components/Tech/Tech'
 function App() {
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <Home />
-      <Service />
+      {/* <Service />
       <Portfolio /> */}
       {/* <Client /> */}
        {/* <Tech /> */}
-      <Footer /> 
+      {/* <Footer />  */}
     </>
   )
 }
