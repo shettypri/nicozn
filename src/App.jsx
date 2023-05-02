@@ -9,13 +9,12 @@ import Service from './Components/Service/Service'
 import Tech from './Components/Tech/Tech'
 
 function App() {
- 
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <Home />
       <Service />
-      <Portfolio />
+      <Portfolio /> */}
       {/* <Client /> */}
        {/* <Tech /> */}
       <Footer /> 

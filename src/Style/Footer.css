@@ -1,17 +1,10 @@
-
 .footer-main{
-    width: 100%;
-    height: auto;
     color: whitesmoke;
-    /* padding: 2rem; */
     background-color: rgb(45, 41, 41);
     display: flex;
     justify-content: space-between;
-    
 }
-.footer-left{
-   
-}
+
 .footer-icon{
     margin: 13px 0px -18px 5px;
     width: 10vw;
@@ -23,7 +16,6 @@
     margin-top: 20px;
     margin: 40px 0px 5px 30px; 
     width: 50%;
-    
 } 
 
 .footer-map iframe{
@@ -32,26 +24,7 @@
 }
 .google-map{
     border-radius: 25px;
-    /* box-sizing: border-box; */
     box-shadow:0px 0px 10px 3px rgb(68, 77, 78);
-}
-
-
-@media screen and (min-width:500px) {
-    .google-map{
-        width: 25vw;
-        height:  50vh ;
-        margin-bottom: 50px;
-        /* max-height: 90vh; */
-    }
-}
-
-@media screen and (max-width:500px) {
-    .google-map{
-        width: 30vw;
-        height:  20rem auto ;
-        margin-bottom: 50px;
-    }
 }
 
 .footer-right{
@@ -59,12 +32,8 @@
 }  
 
 .contact-main{
-    padding: 0px;
     margin-right: 5vw;
     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    /* height: 1vw; */
 }
 .contact-heading{
     text-transform: uppercase;
@@ -93,10 +62,11 @@
 .contact-btn p{
     padding: 0;
     margin: 0;
-
 }
 .social-media{
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .social-btn{
     cursor: pointer;
@@ -107,4 +77,41 @@
 .social-btn img{
     width: 3vw;
     height: auto;
+}
+
+@media screen and (min-width:400px) {
+    .google-map{
+        width: 25vw;
+        height:  50vh ;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .footer-icon{
+        
+        width: 20vw;
+        height: auto;
+    }
+    .google-map{   
+        margin-bottom: 50px;
+    }
+    .footer-map iframe{
+        width: 35vw;
+        height: 15vh;
+    }
+    .contact-heading {
+        font-size: 0.9rem;
+    }
+    .contact-btn img{
+        width: 5vw;
+        height: auto;
+    }
+    .contact-btn p{
+        font-size: 0.6rem;
+    }
+    .social-btn img{
+        width: 7vw;
+        height: auto;
+    }
 }
