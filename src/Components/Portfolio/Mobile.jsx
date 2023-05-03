@@ -1,16 +1,16 @@
-/* eslint-disable react/prop-types */
-import '../../Style/MObile.css'
+
 export const Mobile = (props) => {
   return (
     <>
-      <div className="portfolio-mobile-div">
+      <div className="portfolio-mobile-div" >
           <div className="mockup-images">
             {
               props.workImage.app.map((views,index)=>{
                 return(
-                  <span key={index}>
-                    <img src={views} className="portfolio-mockup"/>
-                  </span>
+                  // <span key={index}>
+                    <img src={views} key={index}
+                    className="portfolio-mockup"/>
+                  // </span>
                 )
               })
             }
