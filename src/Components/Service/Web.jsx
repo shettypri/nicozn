@@ -20,15 +20,15 @@ const Web = () => {
   return (
     <>
        <div className='web-dev-container'>
-        <di className='web-heading'>
-            <p className="heading">
-            Web App Development
-            </p>
+          <div className='web-heading'>
+              <p className="heading">
+              Web App Development
+              </p>
 
-            <p className="mobile-sub-heading">
-            We provide Web Apps with designs that are good, attractive & responsive.  
-          </p>
-        
+              <p className="mobile-sub-heading">
+              We provide Web Apps with designs that are good, attractive & responsive.  
+            </p>
+          
 
         <div className='mobile-points'>
         <ul>
@@ -50,7 +50,7 @@ const Web = () => {
         }
         </ul>
         </div>
-      </di>
+      </div>
 
         <div className='web-dev-div'>
             <img src={webDev} />

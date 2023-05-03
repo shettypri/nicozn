@@ -4,7 +4,6 @@ import Zed1 from '../../assets/MorkUp/Zed/Zed1_iphone13blue_portrait.png'
 const Mobile = (props) => {
 
   const mockupArray =[
-    // lmar1,nigma1,shisha1,Zed1
     shisha1,Zed1
   ]
 
@@ -17,7 +16,8 @@ const Mobile = (props) => {
       "heading":"Native and cross-platform solutions ",
       "sub":"We develop  robust apps for multi-platform solutions for Mobile (iOS, Android), Web, Desktop and other devices."
     },
-   { "heading":"UI Design",
+    { 
+    "heading":"UI Design",
       "sub":"We provide apps with design that is responsive and use attractive."
   },
     {"heading":"Fast and smooth working",
@@ -26,7 +26,7 @@ const Mobile = (props) => {
     {"heading":"Easy Maintenance",
     "sub":"We provide apps that are easy to maintain wwith future servicing facillities."
   }
-  ]
+]
 
   return (
     <>

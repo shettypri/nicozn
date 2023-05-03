@@ -13,11 +13,11 @@ function App() {
     <>
       <Navbar />
       <Home />
-      {/* <Service />
-      <Portfolio /> */}
+      <Service />
+      {/* <Portfolio /> */}
       {/* <Client /> */}
        {/* <Tech /> */}
-      {/* <Footer />  */}
+      <Footer /> 
     </>
   )
 }
