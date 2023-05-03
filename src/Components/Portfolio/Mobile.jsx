@@ -1,4 +1,4 @@
-
+/* eslint-disable react/prop-types */
 export const Mobile = (props) => {
   return (
     <>
@@ -7,22 +7,20 @@ export const Mobile = (props) => {
             {
               props.workImage.app.map((views,index)=>{
                 return(
-                  // <span key={index}>
                     <img src={views} key={index}
                     className="portfolio-mockup"/>
-                  // </span>
                 )
               })
             }
           </div>
-          <div className="portfolio-app-details">
+            <div className="portfolio-app-details">
               <div className="portfolio-app-name">
-              <a href={props.workImage.playstore} target='_blank' rel='noreferrer'>
+                <a href={props.workImage.playstore} target='_blank' rel='noreferrer'>
                   {props.workImage.name}
                 </a>
               </div>
+          </div>
       </div>
-    </div>
     </>
   )
 }
