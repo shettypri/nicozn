@@ -105,13 +105,13 @@
     .portfolio-content {
         margin: 0;
         padding: 10px;
-        display: flex;
-        justify-content: space-between;
+        display: block;
+        /* justify-content: space-between; */
     }
 
     .portfolio-content section {
         margin: 0;
-        padding: 0px;
+        padding: 5px 10px 0px 42px;
     }
     .portfolio-projects{
         padding: 0;
@@ -119,18 +119,27 @@
     }
 
     .mockup-images {
-        width: 42vw;
-        height: 21vh;
+        width: 72vw;
+        height: 33vh;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .mockup-images img{
-        margin: 15px 0px 0px 0px;
+        margin: 5px 0px 0px 0px;
         filter: none;
+        width: 134px;
+      
     }
     .portfolio-app-details{
         width: 0%;
     }
-    .portfolio-app-name a {padding: 6px;
-        margin-left: -6rem;
-        margin-top: 0.001rem;
+    .portfolio-app-name a {
+        width: 9rem;
+        height: 2rem;
+        padding: 6px 15px 0px 15px;
+        margin-left: -3rem;
+        margin-top: 3rem;
+        /* border: 2px solid red; */
+        font-size: 0.7rem;
     }
 }

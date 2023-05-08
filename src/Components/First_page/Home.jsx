@@ -1,6 +1,6 @@
 import video from '../../assets/nicozn/pexel3.mp4'
-import logo1 from '../../assets/nicozn/Nicozn_icon.png'
-import logo2 from '../../assets/nicozn/Niconzn_icon2.png'
+import logo1 from '../../assets/nicozn/Nicozn_icon_n.png'
+import logo2 from '../../assets/nicozn/Nicozn_name_icon.png'
 import '../../Style/Home.css'
 
 export const Home = () => {
