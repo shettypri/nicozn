@@ -5,7 +5,7 @@ import Web from './Web'
 function Servie() {
   return (
     <>
-    <div className="Service-main">
+    <div className="Service-main" id='service'>
       <div className="service-header">
         <p className="service-heading">
           Our services

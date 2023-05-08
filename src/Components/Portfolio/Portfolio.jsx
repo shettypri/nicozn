@@ -39,7 +39,7 @@ const portfolioImage =[
 export const Portfolio = () => {
     return (
         <>
-            <div className="portfolio-main">
+            <div className="portfolio-main" id='portfolio'>
                 <div className='portfolio-heading'>
                     <p>
                         Portfolio

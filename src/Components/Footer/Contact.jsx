@@ -1,7 +1,7 @@
 
 
 const Contact = (props) => {
-    console.log(props.type);
+    // console.log(props.type);
   return (
     <>
         <a className="contact-btn" href="#" target="_blank" >

@@ -1,7 +1,7 @@
 
 
 const SocialMedia = (props) => {
-    console.log(props);
+    // console.log(props);
   return (
     <>
         <a className="social-btn" 

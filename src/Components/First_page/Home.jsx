@@ -8,7 +8,7 @@ export const Home = () => {
     const companyIcon = [logo1,logo2]
   return (
     <>
-        <div className='bgcontainer '>
+        <div className='bgcontainer ' id='home'>
             <div className='home-video'>
                 <video src={video} autoPlay loop muted/>
             </div>

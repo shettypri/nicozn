@@ -9,7 +9,7 @@ const Client = () => {
   ]
   return (
    <>
-    <div className="client-main">
+    <div className="client-main" id='client'>
       <div className="client-heading">
         <p>
           Our clients

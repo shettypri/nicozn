@@ -4,7 +4,7 @@ import RightFooter from './RightFooter'
 const Footer = () => {
   return (
     <>
-      <div className="footer-main">
+      <div className="footer-main" id="contact">
         <LeftFooter />
         <RightFooter />
       </div>

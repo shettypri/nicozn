@@ -8,7 +8,7 @@ function Navbar() {
     const hamburgerIcon = useRef()
 
     const values= ['Home','Service',"Portfolio","Our Clients","Contact"]
-
+    const routeValues=['home','service','portfolio','client','contact']
     const displayToggle = () =>{
         // const toogleButton = hamburgerButton.current.classList[0]
         const result = hamburgerIcon.current.classList.toggle('active')
@@ -32,9 +32,11 @@ function Navbar() {
         <ul>
             {
                 values.map((navText,index)=>{
+                    console.log(`#`+routeValues[index])
                     return(
+                        
                         <li key={index}>
-                            <a href='#' className='navbar-link-list'>{navText} </a>
+                            <a href={`#`+routeValues[index]} className='navbar-link-list'>{navText} </a>
                         </li>
                     )
                 })
