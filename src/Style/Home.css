@@ -33,6 +33,16 @@ video{
     color: whitesmoke;
 }
 
+.logo img{
+    /* border: 2px solid red; */
+}
+.logo img:nth-child(1){
+    height: 20vh;
+    width: 10vw;
+}
+.logo img:nth-child(2){
+    width: 22vw;
+}
 
 @media screen and (max-width:600px){
     .container{
@@ -44,9 +54,13 @@ video{
         padding: 1.3vw;
         width: auto;
     }
-    .logo img{
-        width: 4vw;
-        height: 4vh;
+    
+    .logo img:nth-child(1){
+        height: 5vh;
+        width: 10vw;
+    }
+    .logo img:nth-child(2){
+        width: 25vw;
     }
 
     .container{

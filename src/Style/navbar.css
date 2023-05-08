@@ -34,7 +34,9 @@ nav{
 .navbar-link li{
     list-style: none;
 }
-
+.navbar-link ul li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .navbar-link-list{
     text-decoration: none;
     text-transform: capitalize;
@@ -93,7 +95,7 @@ nav{
     .navbar-link li{
         text-align: center;
     }
-
+    
     .navbar-link-list{
         font-size: 1rem;
         padding: 0.5rem ;
