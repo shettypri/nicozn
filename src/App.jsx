@@ -1,5 +1,5 @@
 
-// import './App.css'
+import './App.css'
 import Client from './Components/Client/Client'
 import { Home } from './Components/First_page/Home'
 import Footer from './Components/Footer/Footer'
@@ -9,16 +9,15 @@ import Service from './Components/Service/Service'
 import Tech from './Components/Tech/Tech'
 
 function App() {
- 
   return (
     <>
       <Navbar />
       <Home />
       <Service />
-      {/* <Portfolio /> */}
+      <Portfolio />
       {/* <Client /> */}
-      {/* <Tech /> */}
-      <Footer />
+       {/* <Tech /> */}
+      <Footer /> 
     </>
   )
 }

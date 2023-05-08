@@ -1,4 +1,4 @@
-import logo from '../../assets/nicozn/Nicozn_icon.png'
+import logo from '../../assets/nicozn/Nicozn_name_icon.png'
 import Map from './Map'
 
 const LeftFooter = () => {

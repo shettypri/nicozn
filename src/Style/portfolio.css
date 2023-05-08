@@ -1,4 +1,136 @@
-.portfolio-heading{
+.portfolio-main {
+    margin-top: 13rem;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-mobile {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.port-div {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.portfolio-heading {
+    font-size: 2vw;
+    text-transform: uppercase;
+    border: 2px solid goldenrod;
+    background-color: black;
+    color: goldenrod;
+}
+
+.portfolio-content {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    height: auto;
     display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portfolio-content section {
+    width: 40vw;
+    height: auto;
+    margin: 22px;
+    padding: 35px;
+
+}
+
+.portfolio-projects {
+    margin: 5px;
+    width: 100%;
+    height: 50%;
+    padding: 35px;
+    border-radius: 25px;
+}
+
+.mockup-images {
+    position: inherit;
+    width: 70vw;
+    height: 65vh;
+    overflow: hidden;
+    margin-bottom: 44px;
+}
+
+.mockup-images img {
+    display: flex;
+    float: left;
     justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 15vw;
+    height: 50vh auto;
+    margin: 35px;
+    animation: bounce 1s infinite;
+    filter: drop-shadow(0.6rem 0.6rem 1rem rgba(104, 104, 123, 0.8));
+}
+
+.portfolio-app-name {
+    margin: -70px 5px 0px 105px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.portfolio-app-name a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding: 20px;
+    width: 18vw;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio-main {
+        margin: 0;
+    }
+
+    .port-div {
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .portfolio-content {
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .portfolio-content section {
+        margin: 0;
+        padding: 0px;
+    }
+    .portfolio-projects{
+        padding: 0;
+        margin: 0;
+    }
+
+    .mockup-images {
+        width: 42vw;
+        height: 21vh;
+    }
+    .mockup-images img{
+        margin: 15px 0px 0px 0px;
+        filter: none;
+    }
+    .portfolio-app-details{
+        width: 0%;
+    }
+    .portfolio-app-name a {padding: 6px;
+        margin-left: -6rem;
+        margin-top: 0.001rem;
+    }
 }

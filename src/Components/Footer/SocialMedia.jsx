@@ -4,9 +4,11 @@ const SocialMedia = (props) => {
     console.log(props);
   return (
     <>
-        <button className="social-btn">
-            <img src={props.media} className="social-image"/>
-        </button> 
+        <a className="social-btn" 
+        href={props.media.link}
+        target="_blank" rel="noreferrer">
+            <img src={props.media.name} className="social-image"/>
+        </a> 
     </>
   )
 }

@@ -21,7 +21,24 @@ const RightFooter = () => {
     ]
 
     const social_media =[
-            instagram,facebook,linkedin,twitter
+            {
+                "name":instagram,
+                "link" :"https://instagram.com/nicozn_tech?igshid=YmMyMTA2M2Y="  
+            },
+            {
+                "name":facebook,
+                "link" :"https://www.facebook.com/NicoznLLP?mibextid=ZbWKwL"
+            },
+            {
+                "name":linkedin,
+                "link" :"https://www.linkedin.com/company/nicozn/"
+                
+            },
+            {
+                "name":twitter,
+                "link" :"https://twitter.com/nicozn_tech?t=9U34a1cd9fQpgKYyUNmX2w&s=08"
+                
+            }
     ]
   return (
     <>
@@ -34,15 +51,14 @@ const RightFooter = () => {
                     contactDetails.map((val,index) =>{
                         return(
                             <>
-                            <p key={index}>
-                                <Contact type={val} />
-                            </p>
+                                <p key={index} >
+                                    <Contact type={val} />
+                                </p>
                             </>
                         )
                     })
                 }
             </div>
-
             <div className="social-media">
                     {
                         social_media.map((media,index) =>{
