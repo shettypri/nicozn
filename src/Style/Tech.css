@@ -1,3 +1,41 @@
-.b{
-    
+/* .main-heading{
+    border: 2px solid red;
+} */
+.tech-heading{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px;
+    padding: 10px;
+
+}
+.tech-heading p{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-variant: normal;
+
+
+}
+
+.tech-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.tech-images img{
+    /* border: 3px solid red; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 20px;
+    border-radius: 33px;
+    margin: 4%;  
+}
+
+@media screen and (max-width: 500px){
+    .tech-images img{
+        width: 20vw;
+        height: 10vh;
+
+    }
+    .tech-heading p{
+        font-size: 0.8rem;
+    }
 }

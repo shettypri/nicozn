@@ -143,3 +143,17 @@
         font-size: 0.7rem;
     }
 }
+
+@media screen and (max-width: 380px) {
+    .mockup-images img{
+        width: 100px;
+        /* margin-bottom: 600px; */
+    }
+    .portfolio-app-name {
+        margin-left: 70px;
+    }
+    .portfolio-app-name a{
+        /* border: 5px solid red; */
+        padding: 5px;
+    }
+}
