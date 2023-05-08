@@ -26,15 +26,16 @@
 .portfolio-content {
     margin: 0;
     padding: 10px;
-    width: 100%;
+    width: 95%;
     height: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .portfolio-content section {
+    
     width: 40vw;
     height: auto;
     margin: 22px;
@@ -43,8 +44,9 @@
 }
 
 .portfolio-projects {
+    /* border: 5px solid red; */
     margin: 5px;
-    width: 100%;
+    width: 80%;
     height: 50%;
     padding: 35px;
     border-radius: 25px;
@@ -52,7 +54,7 @@
 
 .mockup-images {
     position: inherit;
-    width: 70vw;
+    width: 43vw;
     height: 65vh;
     overflow: hidden;
     margin-bottom: 44px;
