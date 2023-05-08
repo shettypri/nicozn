@@ -8,7 +8,7 @@ const clientlogos=[
 
 ]
 
-export const clients=()=>{
+export const client=()=>{
   return(
     <>{
       clientlogos.map((val,index)=>{
@@ -29,4 +29,3 @@ export const clients=()=>{
 //   )
 // }
 
-export default Client
